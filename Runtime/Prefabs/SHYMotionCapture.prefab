@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4616096043941200587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7870701262082948688}
+  - component: {fileID: 6753895036626228225}
+  - component: {fileID: 1495253862638810629}
+  - component: {fileID: 1296509670850775898}
+  m_Layer: 0
+  m_Name: SHYMotionCapture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7870701262082948688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4616096043941200587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6753895036626228225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4616096043941200587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f11c0a7ddbdda340b50d377d2b5db5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _recordStartKey: 114
+  _recordStopKey: 120
+  _animator: {fileID: 0}
+  _recording: 0
+  FrameIndex: 0
+  IK_LeftFootBone: 5
+  IK_RightFootBone: 6
+  TargetFPS: 30
+  _outputDirectory: 
+  _outputFileName: RecordMotion_<GameObject>_<Date>_<Time>
+  saveAsScriptableObject: 1
+  saveAsCSV: 0
+--- !u!114 &1495253862638810629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4616096043941200587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 715bee94f0d5de74fb576cac44eab091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playStartKey: 115
+  _playStopKey: 116
+  _playPauseKey: 112
+  _playBackKey: 276
+  _playNextKey: 275
+  RecordedMotionData: {fileID: 0}
+  _animator: {fileID: 0}
+  _startFrame: 0
+  _playing: 0
+  _status: 0
+  _frameIndex: 0
+  TargetFPS: 30
+--- !u!114 &1296509670850775898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4616096043941200587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb6af34c6b6d8541a71391eec728546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outputDirectory: Assets/Resources/
+  outputFileName: Motion_<GameObject>_<Take>
+  saveAsScriptableObject: 1
+  saveAsCSV: 0

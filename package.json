@@ -1,0 +1,18 @@
+{
+    "name": "com.co1umbine.shy.motion.recorder",
+    "version": "1.0.0",
+    "description": "A package based on EasyMotionRecorder that records, plays, and trims motions for SHY format.",
+    "displayName": "SHYMotionRecorder",
+    "unity": "2022.2",
+    "license": "MIT",
+    "author": {
+        "name" : "co1umbine"
+    },
+    "samples":[
+        {
+            "displayName": "Recording and Editing motion", 
+            "description": "A sample scene that demonstrates how to record, play, and trim motions.",
+            "path": "Samples~/SampleScene"
+        }
+    ]
+}

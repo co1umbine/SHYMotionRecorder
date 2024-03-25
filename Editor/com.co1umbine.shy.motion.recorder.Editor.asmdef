@@ -1,0 +1,16 @@
+{
+    "name": "com.co1umbine.shy.motion.recorder.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:324493216669d324199938caa5265fb0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
