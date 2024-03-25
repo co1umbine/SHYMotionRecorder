@@ -2,7 +2,7 @@
 
 [EasyMotionRecorder](https://github.com/neon-izm/EasyMotionRecorder)を元にした、人型モーションの記録、再生、編集をするためのライブラリです。
 
-人型モーションの記録、記録データの切り出し、CSV出力、CSYデータの再生ができます。
+人型モーションの記録、記録データの切り出し、SHY形式でのCSV出力、CSYデータの再生などができます。
 
 ## 使い方
 
@@ -10,7 +10,7 @@ Unityのパッケージマネージャーから、Git URL(末尾が.git)を指�
 
 ### セットアップ
 
-Sampleにセットアップ済みのシーンがあります。
+Sampleにセットアップ済みのシーンがあります。SampleはPackageManagerから別個にインストールしてください。
 
 1. 記録したいモーションを再生するHumanoidキャラクターをシーンに配置する。
 2. SHYMotionCaptureプレハブをシーンに配置する。
